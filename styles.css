@@ -1,38 +1,37 @@
-*
-* ::before
+*,
+* ::before,
 * ::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
 
-.header-nav {
-    height: 100;
-    background-color: beige;
-    margin-bottom: 10;
-
+.header-nav{
+    height: 100px;
+    background-color: rgb(219, 219, 14);
+    margin-bottom: 10px;
 }
-.home-nav {
-    height: 100;
-    background-color: beige;
-    margin-bottom: 10;
 
+.home-nav{
+    height: 100px;
+    background-color: rgb(98, 49, 212);
+    margin-bottom: 10px;
 }
-.about-nav {
-    height: 100;
-    background-color: beige;
-    margin-bottom: 10;
 
+.about-nav{
+    height: 100px;
+    background-color: rgb(185, 36, 36);
+    margin-bottom: 10px;
 }
-.product-nav {
-    height: 100;
-    background-color: beige;
-    margin-bottom: 10;
 
+.product-nav{
+    height: 100px;
+    background-color: rgb(36, 189, 228);
+    margin-bottom: 10px;
 }
-.contact-nav {
-    height: 100;
-    background-color: beige;
-    margin-bottom: 10;
 
+.contact-nav{
+    height: 100px;
+    background-color: rgb(160, 160, 74);
+    margin-bottom: 10px;
 }
