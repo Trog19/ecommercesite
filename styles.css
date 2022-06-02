@@ -5,3 +5,34 @@
     padding: 0;
     box-sizing: inherit;
 }
+
+.header-nav {
+    height: 100;
+    background-color: beige;
+    margin-bottom: 10;
+
+}
+.home-nav {
+    height: 100;
+    background-color: beige;
+    margin-bottom: 10;
+
+}
+.about-nav {
+    height: 100;
+    background-color: beige;
+    margin-bottom: 10;
+
+}
+.product-nav {
+    height: 100;
+    background-color: beige;
+    margin-bottom: 10;
+
+}
+.contact-nav {
+    height: 100;
+    background-color: beige;
+    margin-bottom: 10;
+
+}
