@@ -8,13 +8,15 @@
   letter-spacing: 50;
 }
 
-.header-nav {
+.header-section {
   height: 100px;
   background-color: white;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   position: fixed;
   width: 100%;
   top: 0;
+  display: center;
+  text-align: center;
 }
 
 .home-section {
@@ -23,39 +25,43 @@
   margin-bottom: 10px;
 }
 
-.about-nav {
+.about-section {
   height: 100px;
   background-color: rgb(191, 118, 49);
   margin-bottom: 10px;
 }
 
-.product-nav {
+.products-section {
   height: 100px;
   background-color: rgb(191, 118, 49);
   margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.contact-nav {
+.contact-section {
   height: 100px;
   background-color: rgb(191, 118, 49);
   margin-bottom: 10px;
-}
-
-.green-mean {
-  color: chartreuse;
-  font-size: 20px;
 }
 
 .product-flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* content style (shadows, etc) */
 .container-flex {
     display: flex; 
     flex-wrap: wrap;
+    width: 35%;
+    background-color: ghostwhite;
+    top: 0;
+    margin-bottom: 60px;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-between;
 }
-
 .card {
     width: 200px;
 }
@@ -65,10 +71,13 @@
 }
 
 .nav-item {
-    margin: 100px;
+    margin: 0px;
 }
 
 .nav-item-link {
-    display: black
+    margin: 0; 
+    color: black;
+    text-decoration: none;
+
     
 }
