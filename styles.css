@@ -1,37 +1,73 @@
 *,
 * ::before,
 * ::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: Segoe UI;
+  letter-spacing: 50;
 }
 
-.header-nav{
-    height: 100px;
-    background-color: rgb(219, 219, 14);
-    margin-bottom: 10px;
+.header-nav {
+  height: 100px;
+  background-color: white;
+  margin-bottom: 150px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
-.home-nav{
-    height: 100px;
-    background-color: rgb(98, 49, 212);
-    margin-bottom: 10px;
+.home-section {
+  margin-top: 100px;
+  background-color: rgb(191, 118, 49);
+  margin-bottom: 10px;
 }
 
-.about-nav{
-    height: 100px;
-    background-color: rgb(185, 36, 36);
-    margin-bottom: 10px;
+.about-nav {
+  height: 100px;
+  background-color: rgb(191, 118, 49);
+  margin-bottom: 10px;
 }
 
-.product-nav{
-    height: 100px;
-    background-color: rgb(36, 189, 228);
-    margin-bottom: 10px;
+.product-nav {
+  height: 100px;
+  background-color: rgb(191, 118, 49);
+  margin-bottom: 10px;
 }
 
-.contact-nav{
-    height: 100px;
-    background-color: rgb(160, 160, 74);
-    margin-bottom: 10px;
+.contact-nav {
+  height: 100px;
+  background-color: rgb(191, 118, 49);
+  margin-bottom: 10px;
+}
+
+.green-mean {
+  color: chartreuse;
+  font-size: 20px;
+}
+
+.product-flex {
+    display: flex;
+}
+
+/* content style (shadows, etc) */
+.container-flex {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+}
+
+.card-image {
+    width: 200px;
+}
+
+.nav-item {
+    margin: 
+}
+
+.nav-item-link {
+    display:
 }
